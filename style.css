@@ -27,7 +27,7 @@ header span{
 .container{
     background-color: white;
     width: 50%;
-    height:250px;
+    height:700px;
     margin: auto;
     border-radius: 10px;
     
@@ -52,6 +52,15 @@ h2{
     display: inline ;
 }
 
+details{
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+summary{
+    margin-bottom: 10px;
+}
+
 .check{
     border: 1px solid lime;
     color: lime;
@@ -60,7 +69,14 @@ h2{
     padding-left: 5px;
     display: inline-block;
 }
-
+.cross{
+    border: 1px solid red;
+    color: red;
+    border-radius: 30px;
+    width: 25px;
+    padding-left: 5px;
+    display: inline-block
+}
 .rett {
     display: inline-block;
     color: white;
@@ -70,4 +86,27 @@ h2{
 
 .azzurro{
     background-color: #47ADF1;
+}
+.viola{
+    background-color: #9C72E4;
+}
+
+.arancione{
+    background-color: #F29E33;
+}
+.verde{
+    background-color: #64C0A9;
+}
+.rosa{
+    background-color: #D863A1;
+}
+.verdechiaro{
+    background-color: #BED249;;
+}
+section{
+    margin-bottom: 12px;
+}
+
+.container span{
+    font-weight: bold;
 }
