@@ -61,22 +61,25 @@ summary{
     margin-bottom: 10px;
 }
 
-.check{
-    border: 1px solid lime;
-    color: lime;
+.cerchio{
     border-radius: 30px;
     width: 25px;
     padding-left: 5px;
     display: inline-block;
+
 }
+
+.check{
+    border: 1px solid lime;
+    color: lime;
+    
+}
+
 .cross{
     border: 1px solid red;
     color: red;
-    border-radius: 30px;
-    width: 25px;
-    padding-left: 5px;
-    display: inline-block
 }
+
 .rett {
     display: inline-block;
     color: white;
